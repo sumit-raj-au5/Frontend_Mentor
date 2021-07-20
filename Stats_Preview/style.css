@@ -1,0 +1,86 @@
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+body{
+    background-color: #090b1a;
+    Font-size: 15px;
+}
+
+.container{
+    margin:15% auto;
+    padding: 10%;
+}
+
+/* Image Section */
+.img{
+    margin-left: 0;
+    width:100%;
+    height: 100%;
+    padding: 0;
+}
+.no-pad{
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.overlay{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.overlay:before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: hsl(277, 64%, 61%);
+    opacity: 40%;
+  }
+
+/* Text Section */
+.text{
+    background-color: hsl(244, 38%, 16%);
+    margin-right: 0;
+    padding: 5%;
+}
+
+h1{
+    color:hsl(0, 0%, 100%);
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+}
+
+.insight-color{
+    color:hsl(277, 64%, 61%);
+}
+
+p{
+    color:hsla(0, 0%, 100%, 0.75);
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 400;
+    padding: 2% 0 5%;
+    
+}
+
+/* Stat Section */
+.stat-data{
+    color:hsla(0, 0%, 100%, 0.6);
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    font-size: 1.5rem;
+}
+
+.stat-desc{
+    color:hsla(0, 0%, 100%, 0.75);
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 400;
+    padding-top: 0px;
+    font-size: 1rem;
+}
